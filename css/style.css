@@ -1,0 +1,201 @@
+.container-fluid
+{
+    padding: 7% 15%;
+}
+
+.colored-section
+{
+    background-color: #D3D3D3;
+}
+
+.title-heading
+{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    /* color: #fff; */
+}
+
+.title-image
+{
+    border-radius: 3%;
+    padding: 5px;
+    height: 400px;
+    position: relative;
+    left: 30%;
+}
+
+@media(max-width:992px)
+{
+    .title-image
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.navbar-brand
+{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #008000;
+}
+
+.nav-link
+{
+    font-family: "Montserrat";
+    font-size: 1.2rem;
+    color: #008000;
+}
+
+
+
+/* Different-things */
+
+
+#Different-things
+{
+    text-align: center;
+}
+
+.things-title
+{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.things-text
+{
+    font-family: "Montserrat";
+    color: #a9a9a9;
+}
+.things-images
+{
+    width:20%;
+    margin-bottom:10px;
+}
+
+
+/* Services */
+#services
+{
+    text-align: center;
+    background-color: #ADD8E6;
+}
+
+.things-top
+{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 1.7rem;
+    color: #000080;
+    padding-top:3%;
+}
+
+.service-title
+{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.service-icons
+{
+    color:blue;
+    margin-bottom: 10px;
+}
+
+.service-icons:hover
+{
+    color: #a9a9a9;
+}
+
+.service-image
+{
+    width: 15%;
+    margin-bottom: 10px;
+}
+
+
+
+/* Learning */
+
+#learning
+{
+    text-align: center;
+}
+
+.learning-title
+{
+    text-align: center;
+    padding-top: 3%;
+}
+
+.learning-text
+{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #8f8f8f;
+}
+
+
+.card-header
+{
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+a , a:active
+{
+    text-decoration: none;
+}
+
+
+
+
+
+/* Reviews Section */
+#reviews
+{
+    padding:auto;
+    background-color: #FFFFE0;
+}
+.carousel-item
+{
+    text-align: center;
+}
+
+.reviews-image
+{
+    width: 10%;
+    border-radius:100%;
+}
+
+
+.carousel-control-prev-icon 
+{
+    background-color: lightblue;
+}
+   
+.carousel-control-next-icon 
+{
+    background-color: lightblue;
+}
+
+
+
+/* Footer */
+
+#footer
+{
+    text-align: center;
+}
+
+.footer-icon
+{
+    margin: 20px 10px;
+}
